@@ -50,4 +50,18 @@ Application listening port => http://localhost:5000
 While the application is running in any of the environments above, run `./make_predictions.sh` to make calls to the ML API.
 
 ### Summary of Files in Project
-- *circleci/config.yml:*  
+
+In no particular order:
+
+- *circleci/config.yml:*  Defines pipeline of circleci
+- *app.py:* The Flask Python app code
+- *requirements.txt:* Contains all prerequisites of Python packages for app.py to run
+- *run_kubernetes.sh:* Runs the API as a Kubernetes deployment
+- *make_prediction.sh:* Calls the api and makes prediction when the app is running
+- *model_data/boston_housing_prediction.joblib:* Pretrained sklearn model for the app
+- *Dockerfile:* Container configuration for the application
+- *Makefile:* Install dependencies, lints and setup using `make` command
+- *run_docker.sh:* Builds the Dockerfile into an image and runs it
+- *upload_docker.sh:* This script tags the Dockerimage built and uploads in to YOUR Dockerhub
+- *output_txt_files/docker_out.txt:* Console output from executing run_docker.sh and make_prediction.sh
+- *output_txt_files/kubernetes_out.txt* Console output from executing run_kubernetes.sh and make_prediction.sh
