@@ -32,7 +32,7 @@ python app.py
 ```
 
 - Docker Container
-#### Ensure that you update the parameters on parameters.sh.
+Ensure that you update the parameters on parameters.sh.
 `./run_docker.sh`
 Application port => http://localhost:8000
 
@@ -41,10 +41,13 @@ For more details on building a docker, check official documentation at https://d
 
 
 - Kubernetes
-#### There are different ways to set up kubernetes clusters. For testing, you can use MiniKube. Check the official installation guide of Minikube for more details: https://kubernetes.io/docs/tasks/tools/install-minikube/
+There are different ways to set up kubernetes clusters. For testing, you can use MiniKube. Check the official installation guide of Minikube for more details: https://kubernetes.io/docs/tasks/tools/install-minikube/
 `./run_kubernetes.sh`
 Application listening port => http://localhost:5000
 
 ### Making Predictions
 
 While the application is running in any of the environments above, run `./make_predictions.sh` to make calls to the ML API.
+
+### Summary of Files in Project
+- *circleci/config.yml: 
