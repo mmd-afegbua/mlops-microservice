@@ -1,0 +1,12 @@
+(.devops)ubuntu:~/environment/mlops-microservice (master)$ ./run_kubernetes.sh 
+NAME         READY   STATUS    RESTARTS   AGE
+mmd-mlops   1/1     Running   0          10minutes
+Forwarding from 127.0.0.1:5000 -> 5000
+Forwarding from [::1]:5000 -> 5000
+Handling connection for 5000
+Port: 5000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
