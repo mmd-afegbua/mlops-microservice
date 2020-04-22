@@ -2,7 +2,7 @@ export PORT=80
 export LOCAL_PORT=8000
 
 # Docker image parameters
-export path=mlops-microservice
+export path=mmd-mlops
 export version=1.1
 
 # Create dockerpath
