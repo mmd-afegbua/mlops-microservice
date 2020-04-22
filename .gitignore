@@ -129,3 +129,4 @@ dmypy.json
 .pyre/
 
 login.sh
+minikube-linux-amd64
