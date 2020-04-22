@@ -16,3 +16,5 @@ The aim is to operationalize the machine learning api as a microservice using ku
 3. DockerHub Account
 4. AWS Cloud9 (Optional)
 
+### Serving The Flask App
+#There are 
