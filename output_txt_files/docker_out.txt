@@ -1,0 +1,19 @@
+[2020-04-22 12:59:15,743] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-22 12:59:15,755] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-22 12:59:15,759] INFO in app: PREDICTION: [20.35373177134412]
+172.17.0.1 - - [22/Apr/2020 12:59:15] "POST /predict HTTP/1.1" 200 -
+129.205.113.163 - - [22/Apr/2020 12:59:35] "GET / HTTP/1.1" 200 -
+[2020-04-22 13:03:49,548] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-04-22 13:03:49,568] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-22 13:03:49,579] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-04-22 13:03:49,583] INFO in app: PREDICTION: [20.35373177134412]
+172.17.0.1 - - [22/Apr/2020 13:03:49] "POST /predict HTTP/1.1" 200 -

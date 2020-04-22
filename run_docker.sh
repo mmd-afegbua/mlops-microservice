@@ -15,4 +15,4 @@ docker image ls
 
 # Step 3: 
 # Run flask app
-docker run -e "PORT=$PORT" -p $LOCAL_PORT:$PORT
+docker run -e "PORT=$PORT" -p $LOCAL_PORT:$PORT $dockerpath
