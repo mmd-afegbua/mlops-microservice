@@ -3,10 +3,10 @@
 
 # Assumes that an image is built via `run_docker.sh`
 
-
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
+# Load parameters
 . ./parameters.sh
 
 # Step 2:  
