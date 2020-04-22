@@ -3,3 +3,4 @@
 # Udacity Cloud DevOps Engineer Nanodegree - Operationalize a Machine Learning Microservice API
 ## Overview of Project
 
+This project is a machie learning api that is designed to run on three different services; locally, on docker as a contain and on kubernetes - as a container too.
