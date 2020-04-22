@@ -50,4 +50,4 @@ Application listening port => http://localhost:5000
 While the application is running in any of the environments above, run `./make_predictions.sh` to make calls to the ML API.
 
 ### Summary of Files in Project
-- *circleci/config.yml: 
+- *circleci/config.yml:*  
