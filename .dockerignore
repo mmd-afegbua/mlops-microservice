@@ -7,3 +7,4 @@ make_prediction.sh
 Makefile
 login.sh
 parameters.sh
+.circleci/
