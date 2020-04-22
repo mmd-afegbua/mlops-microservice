@@ -17,4 +17,20 @@ The aim is to operationalize the machine learning api as a microservice using ku
 4. AWS Cloud9 (Optional)
 
 ### Serving The Flask App
-#There are 
+##### There are three ways to run this app:
+- Local
+```
+#Setup a python virtual environment and activate it
+python3 -m venv ~/.devops
+source ~/.devops/bin/activate
+
+#Install the necessary dependencies
+make install
+
+#Run the main application
+python app.py
+```
+
+- Docker Container
+#### Ensure that you update the parameters on parameters.sh.
+`./run_docker.sh`
